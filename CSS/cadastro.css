@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    font-family: "Rubik", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.conteiner {
+    padding:60px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.conteiner_titulo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.conteiner_titulo p {
+    font-size: 14px;
+}
+
+.conteiner_formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.input label {
+    color: #2e2e2ecc;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.input input {
+    width: 350px;
+    padding: 10px 0px 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #2e2e2e70;
+}

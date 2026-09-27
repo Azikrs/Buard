@@ -38,20 +38,28 @@
 }
 
 .header_navegacao nav a {
-    transform: translate(0px, 0px);
     text-decoration: none;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0);
-    color: #202020;
+    color: #2e2e2e;
     letter-spacing: -1px;
-    font-weight: 400;
-    transition: transform 0.3s cubic-bezier(.16,.02,0,.93),
-                background-color 0.2s cubic-bezier(.16,.02,0,.93);
+    font-weight: 470;
+    transition: background-color 0.2s cubic-bezier(.16,.02,0,.93),
+                color 0.2s cubic-bezier(.16,.02,0,.93);
+}
+
+.header_navegacao nav a span {
+    display: inline-block;
+    transition: transform 0.3s cubic-bezier(.16,.02,0,.93);
 }
 
 .header_navegacao nav a:hover {
-    transform: translate(0px, -1px);
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: #2897ff;
+    color: #fff;
+}
+
+.header_navegacao nav a:hover span {
+    transform: translateY(-2px);
 }
 
 
@@ -61,7 +69,8 @@
 }
 
 .header_entrar button {
-    border: 1px solid #202020;
+    letter-spacing: 0px;
+    border: 1px solid #0085ff;
     border-radius: 100px;
     cursor: pointer;
 }
@@ -72,25 +81,26 @@
     align-items: center;
     padding: 10px 20px;
     color: #fff;
-    background-color: #202020;
+    background-color: #0085ff;
     transition: background 0.2s cubic-bezier(.16,.05,.03,.95);
 }
 
 .header_entrar_login:hover {
-    background-color: #3a3a3a;
+    background-color: #0084ffcc;
+    border-color: #0084ffcc;
 }
 
 
 .header_entrar_cadastro {
     padding: 10px 20px;
-    color: #202020;
+    color: #0085ff;
     background: none;
     transition: background 0.2s cubic-bezier(.16,.05,.03,.95),
                 color 0.2s cubic-bezier(.16,.05,.03,.95);
 }
 
 .header_entrar_cadastro:hover {
-    background-color: #202020;
+    background-color: #0085ff;
     color: #fff;
 }
 
