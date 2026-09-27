@@ -8,30 +8,46 @@
 </head>
 <body>
     <main>
-        <div class="conteiner">
+        <form class="conteiner">
             <div class="conteiner_titulo">
-                <p>Etapa 1 de 2</p>
+                <div class="conteiner_voltar">
+                    <button onclick="voltar()">
+                        <img src="IMG/Voltar.png">
+                    </button>
+                    <p>Etapa 1 de 2</p>
+                </div>
                 <h1>Crie sua conta Buard</h1>
                 <p>Vamos cadastrar sua nova conta.</p>
             </div>
             
-            <form class="conteiner_formulario">
+            <div class="conteiner_formulario">
                 <div class="input">
-                    <label for="email">Qual seu email?</label>
-                    <input type="email" id="email" placeholder="Digite seu e-mail" required> 
+                    <input type="email" id="email" placeholder="Cadastre seu e-mail" required> 
                 </div>
 
                 <div class="input">
-                    <label for="senha">Crie sua senha</label>
                     <input type="password" id="senha" placeholder="Digite sua Senha" required> 
                 </div>
 
                 <div class="input">
-                    <label for="senhaConf">Confirme sua senha</label>
-                    <input type="password" id="senhaConf" placeholder="Digite sua Senha" required>
+                    <input type="password" id="senhaConf" placeholder="Confirme sua Senha" required>
+                </div>
+
+                <div class="check_box">
+                    <input id="termos" type="checkbox" required>
+                    <label for="termos">Li e aceito os <a href="#">Termos e a Política de Privacidade</a></label>
+                </div>
+
+                <div class="conteiner_botao">
+                    <button id="continuarBotao" type="submit" disabled>
+                        <span>Continuar</span>
+                        <img src="IMG/Seta.png" width="15">
+                    </button>
+                    <p>Já possui uma conta? <a href="#login">Entre aqui</a></p>
                 </div>
             </form>
         </div>
     </main>
+    <script src="JS/script.js"></script>
 </body>
 </html>

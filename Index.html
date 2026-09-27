@@ -13,7 +13,7 @@
                 <img src="IMG/BuardLogo.png">
             </a>
             <nav>
-                <a href="#"><span>Início</span></a>
+                <a href="#index"><span>Início</span></a>
                 <a href="#"><span>Áreas de Testes</span></a>
                 <a href="#"><span>Conectar Arduino</span></a>
                 <a href="#"><span>Meu Perfil</span></a>
@@ -21,8 +21,8 @@
         </div>
         
         <div class="header_entrar">
-            <button class="header_entrar_login"><span>Entrar</span><img src="IMG/Seta.png" width="12" style="filter: invert(1);"></button>
-            <button class="header_entrar_cadastro" onclick="cadastro()">Cadastre-se</button>
+            <button class="header_entrar_login" onclick="login()"><span>Entrar</span><img src="IMG/Seta.png" width="12" style="filter: invert(1);"></button>
+            <button class="header_entrar_cadastro" onclick="cadastro()"><span>Cadastre-se</span></button>
         </div>
     </header>
 
@@ -30,14 +30,21 @@
         <section class="hero">
             <div class="hero_conteudo">
                 <h1>Teste e diagnostique circuitos com Arduino usando a Buard.</h1>
-                <p>A Buard auxilia estudantes e iniciantes na identificação de falhas em circuitos físicos, permitindo testar pinos, conexões e componentes de forma simples e orientada.</p>
+                <p>A Buard ajuda estudantes e iniciantes em circuitos e microcontroladores, auxiliando na identificação de falhas em circuitos físicos, permitindo testar pinos, conexões e componentes de forma simples e orientada.</p>
             </div>
-            
+            <div class="hero_menu">
+                <nav>
+                    <a href="#"><span>Conheça a Buard</span><img src="IMG/Seta.png" width="20" style="filter: invert(1);"></a>
+                    <a href="#"><span>Como isso funciona?</span><img src="IMG/Seta.png" width="20" style="filter: invert(1);"></a>
+                    <a href="#"><span>O que dá pra testar</span><img src="IMG/Seta.png" width="20" style="filter: invert(1);"></a>
+                    <a href="#"><span>Conectar meu Arduino</span><img src="IMG/Seta.png" width="20" style="filter: invert(1);"></a>
+                </nav>
+            </div>
         </section>
     </main>
     <footer>
 
     </footer>
-    <script src="JS/index.js"></script>
+    <script src="JS/script.js"></script>
 </body>
 </html>

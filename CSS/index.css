@@ -24,7 +24,6 @@
     font-size: 14px;
     align-items: center;
     display: flex;
-    gap: 50px;
 }
 
 
@@ -33,35 +32,49 @@
 }
 
 .header_navegacao nav {
+    width: 500px;
+    margin: auto;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-.header_navegacao nav a {
+.header_navegacao nav a span {
+    position: relative;
+    z-index: 1;
+    transition: all .3s cubic-bezier(.14,.07,.03,.98);
+
+}
+
+.header_navegacao nav a{
+    position: relative;
     text-decoration: none;
+    overflow: hidden;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0);
     color: #2e2e2e;
     letter-spacing: -1px;
     font-weight: 470;
-    transition: background-color 0.2s cubic-bezier(.16,.02,0,.93),
-                color 0.2s cubic-bezier(.16,.02,0,.93);
+    transition: all .4s cubic-bezier(.14,.07,.03,.98);
 }
 
-.header_navegacao nav a span {
-    display: inline-block;
-    transition: transform 0.3s cubic-bezier(.16,.02,0,.93);
+.header_navegacao nav a::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #2e2e2e;
+    transform: translate(0, 58px);
+    transition: all .4s cubic-bezier(.14,.07,.03,.98);
 }
 
-.header_navegacao nav a:hover {
-    background-color: #2897ff;
+.header_navegacao nav a:hover::before {
+    background-color: #0084ff;
+    transform: translate(0, 0px);
+}
+
+.header_navegacao nav a:hover span{
     color: #fff;
 }
-
-.header_navegacao nav a:hover span {
-    transform: translateY(-2px);
-}
-
 
 .header_entrar {
     display: flex;
@@ -70,52 +83,55 @@
 
 .header_entrar button {
     letter-spacing: 0px;
-    border: 1px solid #0085ff;
-    border-radius: 100px;
+    border-radius: 5px;
     cursor: pointer;
+    padding: 10px 20px;
 }
 
 .header_entrar_login {
+    overflow: hidden;
     display: flex;
     gap: 5px;
     align-items: center;
-    padding: 10px 20px;
     color: #fff;
-    background-color: #0085ff;
-    transition: background 0.2s cubic-bezier(.16,.05,.03,.95);
+    background-color: #0084ff;
+    border: 1px solid #0084ff;
+    transition: all .2s cubic-bezier(.14,.07,.03,.98);
 }
 
 .header_entrar_login:hover {
-    background-color: #0084ffcc;
-    border-color: #0084ffcc;
+    background-color: #004b92;
+    border-color: #004b92;
+
 }
 
-
 .header_entrar_cadastro {
-    padding: 10px 20px;
-    color: #0085ff;
+    border: 1px solid #0084ff;
+    color: #0084ff;
     background: none;
-    transition: background 0.2s cubic-bezier(.16,.05,.03,.95),
-                color 0.2s cubic-bezier(.16,.05,.03,.95);
+    transition: all .2s cubic-bezier(.14,.07,.03,.98);
 }
 
 .header_entrar_cadastro:hover {
-    background-color: #0085ff;
+    border-color: #0084ff;
+    background-color: #0084ff;
     color: #fff;
 }
 
 .hero {
     background: linear-gradient(to bottom, #ffffff00, #222222a8), url(../IMG/FundoArduino.webp);
-    height: 60vh;
-    width: 90vw;
+    height: 70vh;
+    width: 100vw;
     margin: auto;
     background-size: cover;
     background-position: center;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hero_conteudo {
+    padding-top: 100px;
     max-width: 1440px;
     width: 90%;
     justify-content: center;
@@ -141,3 +157,59 @@
     line-height: 1;
     color: #ffffff;
 }
+
+.hero_menu {
+    max-width: 1440px;
+    width: 90%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero_menu nav{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    font-size: 22px;
+}
+
+.hero_menu nav a span {
+    position: relative;
+    z-index: 1;
+    transition: all .5s cubic-bezier(.14,.07,.03,.98);
+}
+
+.hero_menu nav a {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    padding: 40px;
+    text-decoration: none;
+    color: #414141;
+    transition: all .4s cubic-bezier(.14,.07,.03,.98);
+}
+
+.hero_menu nav a::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #2e2e2e;
+    transform: translate(0, 110px);
+    transition: all .4s cubic-bezier(.14,.07,.03,.98);
+}
+
+.hero_menu nav a:hover::before {
+    background-color: #0084ff;
+    transform: translate(0, 0px);
+}
+
+.hero_menu nav a:hover span{
+    color: #fff;
+    padding-left: 15px;
+}
+
