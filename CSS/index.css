@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    font-family: "Rubik", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    right: 0;
+    max-width: 1440px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_navegacao {
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+}
+
+
+.header_navegacao img {
+    width: 75px;
+}
+
+.header_navegacao nav {
+    display: flex;
+    align-items: center;
+}
+
+.header_navegacao nav a {
+    transform: translate(0px, 0px);
+    text-decoration: none;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #202020;
+    letter-spacing: -1px;
+    font-weight: 400;
+    transition: transform 0.3s cubic-bezier(.16,.02,0,.93),
+                background-color 0.2s cubic-bezier(.16,.02,0,.93);
+}
+
+.header_navegacao nav a:hover {
+    transform: translate(0px, -1px);
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+
+.header_entrar {
+    display: flex;
+    gap: 15px;
+}
+
+.header_entrar button {
+    border: 1px solid #202020;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.header_entrar_login {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #202020;
+    transition: background 0.2s cubic-bezier(.16,.05,.03,.95);
+}
+
+.header_entrar_login:hover {
+    background-color: #3a3a3a;
+}
+
+
+.header_entrar_cadastro {
+    padding: 10px 20px;
+    color: #202020;
+    background: none;
+    transition: background 0.2s cubic-bezier(.16,.05,.03,.95),
+                color 0.2s cubic-bezier(.16,.05,.03,.95);
+}
+
+.header_entrar_cadastro:hover {
+    background-color: #202020;
+    color: #fff;
+}
+
+.hero {
+    background: linear-gradient(to bottom, #ffffff00, #222222a8), url(../IMG/FundoArduino.webp);
+    height: 60vh;
+    width: 90vw;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.hero_conteudo {
+    max-width: 1440px;
+    width: 90%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero_conteudo h1 {
+    font-size: 66px;
+    margin-right: auto;
+    max-width: 50%;
+    line-height: 1;
+    color: #ffffff;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.hero_conteudo p {
+    text-align: left;
+    margin-left: auto;
+    max-width: 40%;
+    font-size: 26px;
+    line-height: 1;
+    color: #ffffff;
+}
