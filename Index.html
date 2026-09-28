@@ -8,21 +8,23 @@
 </head>
 <body>
     <header class="header">
-        <div class="header_navegacao">
-            <a href="#">
-                <img src="IMG/BuardLogo.png">
-            </a>
-            <nav>
-                <a href="#index"><span>Início</span></a>
-                <a href="#"><span>Áreas de Testes</span></a>
-                <a href="#"><span>Conectar Arduino</span></a>
-                <a href="#"><span>Meu Perfil</span></a>
-            </nav>
-        </div>
-        
-        <div class="header_entrar">
-            <button class="header_entrar_login" onclick="login()"><span>Entrar</span><img src="IMG/Seta.png" width="12" style="filter: invert(1);"></button>
-            <button class="header_entrar_cadastro" onclick="cadastro()"><span>Cadastre-se</span></button>
+        <div class="header_conteudo">
+            <div class="header_navegacao">
+                <a href="#">
+                    <img src="IMG/BuardLogo.png">
+                </a>
+                <nav>
+                    <a href="#index"><span>Início</span></a>
+                    <a href="#"><span>Áreas de Testes</span></a>
+                    <a href="#"><span>Conectar Arduino</span></a>
+                    <a href="#"><span>Meu Perfil</span></a>
+                </nav>
+            </div>
+            
+            <div class="header_entrar">
+                <button class="header_entrar_login" onclick="login()"><span>Entrar</span><img src="IMG/Seta.png" width="12" style="filter: invert(1);"></button>
+                <button class="header_entrar_cadastro" onclick="cadastro()"><span>Cadastre-se</span></button>
+            </div>
         </div>
     </header>
 
@@ -35,15 +37,26 @@
             <div class="hero_menu">
                 <nav>
                     <a href="#"><span>Conheça a Buard</span><img src="IMG/Seta.png" width="20" style="filter: invert(1);"></a>
+                    <hr>
                     <a href="#"><span>Como isso funciona?</span><img src="IMG/Seta.png" width="20" style="filter: invert(1);"></a>
+                    <hr>
                     <a href="#"><span>O que dá pra testar</span><img src="IMG/Seta.png" width="20" style="filter: invert(1);"></a>
+                    <hr>
                     <a href="#"><span>Conectar meu Arduino</span><img src="IMG/Seta.png" width="20" style="filter: invert(1);"></a>
                 </nav>
             </div>
         </section>
+        <section class="buard">
+            <div class="buard_titulo">
+                <h1>Conheça a Buard.</h1>
+                <h2>Uma ajuda para quem está aprendendo eletrônica.</h2>
+                <p>A Buard foi criada para facilitar o diagnóstico de circuitos físicos, principalmente para quem ainda está aprendendo eletrônica e Arduino. Em vez de depender apenas de tentativa e erro, a ideia é ajudar você a testar partes do circuito, eliminar possíveis causas e entender melhor onde o problema pode estar.Ela não substitui ferramentas como multímetro ou simuladores. A proposta é tornar o processo de investigação mais simples e mais fácil de acompanhar.</p>
+            </div>
+        </section>
     </main>
-    <footer>
 
+    <footer>
+        
     </footer>
     <script src="JS/script.js"></script>
 </body>
