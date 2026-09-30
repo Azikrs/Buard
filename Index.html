@@ -36,21 +36,68 @@
             </div>
             <div class="hero_menu">
                 <nav>
-                    <a href="#"><span>Conheça a Buard</span><img src="IMG/Seta.png" width="20" style="filter: invert(1);"></a>
+                    <a href="#"><span>Conheça a Buard</span><img src="IMG/Seta.png" width="20"></a>
                     <hr>
-                    <a href="#"><span>Como isso funciona?</span><img src="IMG/Seta.png" width="20" style="filter: invert(1);"></a>
+                    <a href="#"><span>Como isso funciona?</span><img src="IMG/Seta.png" width="20"></a>
                     <hr>
-                    <a href="#"><span>O que dá pra testar</span><img src="IMG/Seta.png" width="20" style="filter: invert(1);"></a>
+                    <a href="#"><span>O que dá pra testar</span><img src="IMG/Seta.png" width="20"></a>
                     <hr>
-                    <a href="#"><span>Conectar meu Arduino</span><img src="IMG/Seta.png" width="20" style="filter: invert(1);"></a>
+                    <a href="#"><span>Conectar meu Arduino</span><img src="IMG/Seta.png" width="20"></a>
                 </nav>
             </div>
         </section>
         <section class="buard">
+            
             <div class="buard_titulo">
                 <h1>Conheça a Buard.</h1>
                 <h2>Uma ajuda para quem está aprendendo eletrônica.</h2>
-                <p>A Buard foi criada para facilitar o diagnóstico de circuitos físicos, principalmente para quem ainda está aprendendo eletrônica e Arduino. Em vez de depender apenas de tentativa e erro, a ideia é ajudar você a testar partes do circuito, eliminar possíveis causas e entender melhor onde o problema pode estar.Ela não substitui ferramentas como multímetro ou simuladores. A proposta é tornar o processo de investigação mais simples e mais fácil de acompanhar.</p>
+                <p>A Buard foi criada para facilitar o diagnóstico de circuitos físicos, principalmente para quem ainda está aprendendo eletrônica e Arduino. Em vez de depender apenas de tentativa e erro, a ideia é ajudar você a testar partes do circuito, eliminar possíveis causas e entender melhor onde o problema pode estar. A proposta é tornar o processo de investigação mais simples e mais fácil de acompanhar.</p>
+            </div>
+            <div class="buard_conteudo">
+
+                <div class="buard_conteiner" style="display: none;">
+                    <div class="buard_conteiner_titulo">
+                        <img src="IMG/Fotoresistor.png">
+                        <h1>Fotoresistor não detectado.</h1>
+                    </div>
+
+                    <div class="buard_conteiner_conteudo">
+                        <div class="buard_conteiner_lista_verificado">
+                            <div>
+                                <p>Arduino Conectado!</p>
+                                <span>Recebendo informações do Arduino</span>
+                            </div>
+                            <img src="IMG/Verificado.png">
+                        </div>
+                        <hr>
+                        <div class="buard_conteiner_lista_verificado">
+                            
+                           <div>
+                                <p>Botão respondendo!</p>
+                                <span>4 dos 4 Cliques do botão foram registrados, bom trabalho!</span>
+                            </div>
+                            <img src="IMG/Verificado.png">
+                        </div>
+                        <hr>
+                        <div class="buard_conteiner_lista_errado">
+                            <div>
+                                <p>Fotoresistor fantasma</p>
+                                <span>Que estranho, nenhum sinal do Fotoresistor foi registrado do pino A0</span>
+                            </div>
+                            <img src="IMG/Errado.png">
+                        </div>
+
+                        <div class="buard_conteiner_erro">
+                            <img src="IMG/Info.png">
+                            <p>Parece que no seu código você está tentando ler valores analógicos do Fotoresistor pelo pino A0, mas o pino não está recebendo sinal. Vamos resolver isso!</p>
+                        </div>
+                        
+                        <button>
+                            <span>Como posso resolver?</span>
+                            <img src="IMG/Seta.png">
+                        </button>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
