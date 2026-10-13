@@ -303,7 +303,7 @@
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-.buard_conteiner {
+.buard_container {
     padding: 70px 40px 40px;
     height: 700px;
     display: flex;
@@ -312,11 +312,11 @@
     border-radius: 15px;
 }
 
-.buard_conteiner_top img {
+.buard_container_top img {
     width: 25px;
 }
 
-.buard_conteiner_top {
+.buard_container_top {
     align-items: center;
     gap: 10px;
     width: 500px;
@@ -324,7 +324,7 @@
     display: flex;
 }
 
-.buard_conteiner_titulo {
+.buard_container_titulo {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -333,7 +333,7 @@
     padding: 0px 0px 75px;
 }
 
-.buard_conteiner_titulo h1 {
+.buard_container_titulo h1 {
     color: #0084ff;
     font-size: 35px;
     line-height: 1;
@@ -341,12 +341,12 @@
     font-weight: 600;
 }
 
-.buard_conteiner_titulo img {
+.buard_container_titulo img {
     width: 40px;
 
 }
 
-.buard_conteiner_conteudo {
+.buard_container_conteudo {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -354,40 +354,40 @@
     margin: auto;
 }
 
-.buard_conteiner_conteudo hr {
+.buard_container_conteudo hr {
     border: 1px solid #3838381f;
 }
 
-.buard_conteiner_lista_verificado, .buard_conteiner_lista_errado{
+.buard_container_lista_verificado, .buard_container_lista_errado{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.buard_conteiner_lista_verificado img, .buard_conteiner_lista_errado img{
+.buard_container_lista_verificado img, .buard_container_lista_errado img{
     width: 30px;
 }
 
-.buard_conteiner_lista_verificado span, .buard_conteiner_lista_errado span{
+.buard_container_lista_verificado span, .buard_container_lista_errado span{
     color: #2e2e2ecc;
     font-size: 14px;
     font-weight: 500;
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-.buard_conteiner_lista_verificado p{
+.buard_container_lista_verificado p{
     color: #009c08cc;
     font-size: 20px;
     font-weight: 500;
 }
 
-.buard_conteiner_lista_errado p{
+.buard_container_lista_errado p{
     color: #9c000dcc;
     font-size: 20px;
     font-weight: 500;
 }
 
-.buard_conteiner button {
+.buard_container button {
     background-color: #0084ff;
     color: #fff;
     border-radius: 5px;
@@ -397,11 +397,11 @@
     font-weight: 400;
 }
 
-.buard_conteiner button img{
+.buard_container button img{
     width: 18px;
     filter: invert(1);
 }
-.buard_conteiner_erro {
+.buard_container_erro {
     display: flex;
     align-items: center;
     background-color: #0084ff11;
@@ -411,11 +411,11 @@
     gap: 20px;
 }
 
-.buard_conteiner_erro img {
+.buard_container_erro img {
     width: 50px;
 }
 
-.buard_conteiner_erro p{
+.buard_container_erro p{
     color: #0084ff;
     font-size: 14px;
     font-weight: 500;
