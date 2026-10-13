@@ -15,7 +15,7 @@ main {
     height: 100vh;
 }
 
-.conteiner {
+.container {
     padding:60px;
     border-radius: 10px;
     display: flex;
@@ -25,21 +25,21 @@ main {
     gap: 50px;
 }
 
-.conteiner_voltar {
+.container_voltar {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
 }
 
-.conteiner_voltar button img {
+.container_voltar button img {
     width: 25px;
     position: relative;
     z-index: 1;
     transition: filter 0.05s cubic-bezier(.14,.07,.03,.98);
 }
 
-.conteiner_voltar button {
+.container_voltar button {
     position: relative;
     display: flex;
     align-items: center;
@@ -52,7 +52,7 @@ main {
     transition: all .3s cubic-bezier(.14,.07,.03,.98);
 }
 
-.conteiner_voltar button::before {
+.container_voltar button::before {
     content: "";
     position: absolute;
     inset: 0;
@@ -62,29 +62,29 @@ main {
     transition: all .4s cubic-bezier(.14,.07,.03,.98);
 }
 
-.conteiner_voltar button:hover::before {
+.container_voltar button:hover::before {
     background-color: #0085ff;
     transform: scale(0.9);
 }
 
-.conteiner_voltar button:hover img {
+.container_voltar button:hover img {
     filter: brightness(0) invert(1);
 }
 
-.conteiner_titulo {
+.container_titulo {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.conteiner_titulo p {
+.container_titulo p {
     color: #2e2e2ecc;
     font-size: 14px;
     font-weight: 500;
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-.conteiner_formulario {
+.container_formulario {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -129,18 +129,18 @@ main {
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-.check_box a, .conteiner_botao a {
+.check_box a, .container_botao a {
     color: #005db4;
     text-decoration: none;
 }
 
-.check_box a:hover, .conteiner_botao a:hover{
+.check_box a:hover, .container_botao a:hover{
     color: #005db4;
     cursor: pointer;
     text-decoration: underline;
 }
 
-.conteiner_botao {
+.container_botao {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -182,7 +182,7 @@ main {
     filter: invert(0) opacity(0.5);
 }
 
-.conteiner_botao p{
+.container_botao p{
     color: #2e2e2ecc;
     font-size: 12px;
     font-weight: 500;
