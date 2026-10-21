@@ -276,7 +276,7 @@
 }
 
 .buard_conteudo {
-    background: linear-gradient(#0084ffbb, #0084ffab), url(../IMG/Fundo.jpg);
+    background: linear-gradient(#1d8ef8bb, #0084ffab), url(../IMG/Fundo.jpg);
     background-size: cover;
     background-position: center;
     padding: 75px 0px;
@@ -292,7 +292,6 @@
 .buard_lista {
     display: flex;
     overflow: hidden;
-
     background-color: #006fd6b2;
     backdrop-filter: blur(15px);
     border-radius: 15px 0px 0px 15px;
@@ -478,13 +477,13 @@
 }
 
 .buard_container_lista_verificado p{
-    color: #009c08cc;
+    color: #0077e6;
     font-size: 20px;
     font-weight: 500;
 }
 
 .buard_container_lista_errado p{
-    color: #9c000dcc;
+    color: #c70212cc;
     font-size: 20px;
     font-weight: 500;
 }
