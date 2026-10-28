@@ -127,7 +127,7 @@
 }
 
 .hero {
-    background: linear-gradient(to bottom left, #0c0c0c73, #008cffd2), url(../IMG/FundoArduino.webp);
+    background: linear-gradient(to top right, #0060b9, #008cff36), url(../IMG/FundoArduino.webp);
     height: 80vh;
     width: 80vw;
     margin: auto;
@@ -139,29 +139,34 @@
 }
 
 .hero_conteudo {
+    text-align: center;
     width:40vw;
     display: flex;
     align-items: center;
+    gap: 6vh;
     margin: auto;
     flex-direction: column;
     justify-content: center;
-    gap: 100px;
-    padding-left: 100px;
+    padding-left: 5vw;
     border-radius: 5px;
 }
 
 .hero_conteudo h1 {
-    font-size: 60px;
+    font-size: 3.2vw;
     line-height: 1;
+    font-weight: 1000;
+    letter-spacing: -1px;
     color: #ffffff;
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .hero_conteudo p {
     font-family: "Plus Jakarta Sans", sans-serif;
-    font-weight: 500;
-    font-size: 26px;
-    letter-spacing: -0.5px;
+    font-weight: 600;
+    font-size: 1.2vw;
+    padding: 0 2rem;
+    letter-spacing: 0px;
+    word-spacing: 1px;
     line-height: 1;
     color: #ffffff;
 }
@@ -181,17 +186,19 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 30vw;
+    max-height: 60vh;
     margin: auto;
-    font-size: 22px;
+    font-size: 2vh;
 }
 
 .hero_menu hr {
-    border: 1px solid #2e2e2e28;
-    margin: auto 40px;
+    border: 0.02rem solid #2e2e2e28;
+    margin: auto 2.4vw;
 }
 
 .hero_menu nav a img {
+    width: 1.3vw;
     transition: opacity .2s ease;
     opacity: 0;
     filter: invert(1);
@@ -205,13 +212,14 @@
 
 .hero_menu nav a {
     display: flex;
+    padding-left: 2.4vw;
     gap: 5px;
     align-items: center;
     justify-content: flex-start;
     position: relative;
     overflow: hidden;
     font-family: "Plus Jakarta Sans", sans-serif;
-    padding: 60px;
+    height: 20vh;
     text-decoration: none;
     color: #383838;
     transition: all .4s cubic-bezier(.14,.07,.03,.98);
@@ -222,7 +230,7 @@
     position: absolute;
     inset: 0;
     background-color: #2e2e2e;
-    transform: translate(0, 147px);
+    transform: translate(0, 15vh);
     transition: all .5s cubic-bezier(.14,.07,.03,.98);
 }
 
@@ -233,7 +241,7 @@
 
 .hero_menu nav a:hover span{
     color: #fff;
-    padding-left: 15px;
+    padding-left: 1vw;
 }
 
 .hero_menu nav a:hover img {
@@ -483,7 +491,7 @@
 }
 
 .buard_container_lista_errado p{
-    color: #c70212cc;
+    color: #e00113cc;
     font-size: 20px;
     font-weight: 500;
 }

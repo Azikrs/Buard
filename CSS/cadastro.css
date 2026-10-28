@@ -8,26 +8,33 @@
     box-sizing: border-box;
 }
 
+
 main {
+    
+    background-image: linear-gradient(to top left, #00000048, #00000094), url(../IMG/Fundo.jpg);
+    background-position: center;
+    background-size: cover;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     height: 100vh;
 }
 
 .container {
-    padding:60px;
-    border-radius: 10px;
+    background-color: #fff;
+    padding: 6rem;
     display: flex;
+    height: 100vh;
     flex-direction: column;
-    justify-content: space-between;
     align-items: flex-start;
+    justify-content: center;
     gap: 50px;
 }
 
 .container_voltar {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
     gap: 10px;
 }
@@ -82,6 +89,33 @@ main {
     font-size: 14px;
     font-weight: 500;
     font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.container_plataformas button{
+    width: 350px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #2e2e2e70;
+    display: flex;
+    padding: 10px 0px;
+    gap: 7.5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_plataformas span {
+    color: #353535c0;
+    font-size: 16px;
+    font-weight: 450;
+    letter-spacing: -0.5px;
+}
+
+.container_plataformas button img {
+    width: 15px;
+}
+
+.divisao_container {
+    display: flex;
 }
 
 .container_formulario {
