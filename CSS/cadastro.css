@@ -92,6 +92,7 @@ main {
 }
 
 .container_plataformas button{
+    cursor: pointer;
     width: 350px;
     background-color: #fff;
     border-radius: 5px;
@@ -103,19 +104,19 @@ main {
     align-items: center;
 }
 
+.container_plataformas button:hover {
+    border-color: #0085ff;
+}
+
 .container_plataformas span {
-    color: #353535c0;
+    color: #00000088;
     font-size: 16px;
-    font-weight: 450;
+    font-weight: 400;
     letter-spacing: -0.5px;
 }
 
 .container_plataformas button img {
     width: 15px;
-}
-
-.divisao_container {
-    display: flex;
 }
 
 .container_formulario {
