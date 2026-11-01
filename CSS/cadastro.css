@@ -114,10 +114,6 @@ main {
     width: 15px;
 }
 
-.divisao_container {
-    display: flex;
-}
-
 .container_formulario {
     display: flex;
     flex-direction: column;
