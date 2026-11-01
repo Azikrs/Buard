@@ -52,165 +52,20 @@
             <div class="buard_titulo">
                 <h1>Conheça a Buard</h1>
                 <h2>Uma ajuda para quem está aprendendo eletrônica.</h2>
-                <p>A Buard foi criada para facilitar o diagnóstico de circuitos físicos, principalmente para quem ainda está aprendendo eletrônica e Arduino. Em vez de depender apenas de tentativa e erro, a ideia é ajudar você a testar partes do circuito, eliminar possíveis causas e entender melhor onde o problema pode estar. A proposta é tornar o processo de investigação mais simples e mais fácil de acompanhar.</p>
+                <p>A Buard é uma plataforma criada para facilitar o aprendizado de eletrônica e Arduino. Com ferramentas simples e orientações passo a passo, ajuda estudantes e iniciantes a investigar problemas em seus circuitos e aprender na prática.</p>
             </div>
 
-            <div class="buard_conteudo">
-
-                <div class="buard_lista_descricao">
-
-                </div>
-
-                <div class="buard_container">
-                    
-                </div>
-            </div>
-        </section>
-        
-        <!-- Opção 1: painel de diagnóstico, próximo da estrutura original. -->
-        <section class="exemplo exemplo_diagnostico" id="exemplo-1">
-            <div class="exemplo_titulo">
-                <span>Opção 1 · Diagnóstico guiado</span>
-                <h2>Um resultado. Um próximo passo.</h2>
-                <p>Entenda o que aconteceu no teste e por onde continuar a investigação.</p>
-            </div>
-
-            <div class="buard_conteudo exemplo_conteudo">
-                <div class="exemplo_descricao">
-                    <span class="exemplo_etiqueta">Exemplo ilustrativo</span>
-                    <h3>Vamos entender seu sensor de luz.</h3>
-                    <p>Uma leitura é o começo da investigação. A Buard pode ajudar você a entender o que conferir depois.</p>
-
-                    <ol class="exemplo_lista">
-                        <li><span>1</span>Escolha o que quer testar</li>
-                        <li><span>2</span>Observe a resposta do circuito</li>
-                        <li><span>3</span>Confira as orientações</li>
-                    </ol>
-                </div>
-
-                <div class="buard_container exemplo_painel">
-                    <div class="buard_container_titulo">
-                        <img src="IMG/Fotoresistor.png" alt="">
-                        <div>
-                            <span class="exemplo_legenda">TESTE DO SENSOR DE LUZ</span>
-                            <h3>A leitura não mudou.</h3>
-                        </div>
+            <div class="buard_diagnostico">
+                <div class="buard_diagnostico_p1">
+                    <div class="buard_diagnostico_descricao">
+                        <p>
+                            <strong>Aqui nós ajudamos você </strong>
+                            a encontrar possíveis falhas em circuitos com Arduino por meio de perguntas e testes guiados, mostrando o que verificar e como resolver cada problema.
+                        </p>
                     </div>
-
-                    <div class="buard_container_conteudo">
-                        <div class="buard_container_lista_verificado">
-                            <div>
-                                <p>O que foi observado?</p>
-                                <span>Neste exemplo, a leitura ficou praticamente igual ao cobrir e iluminar o sensor.</span>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="buard_container_erro">
-                            <img src="IMG/Info.png" alt="">
-                            <p>Isso é uma pista para investigar. Ainda precisamos conferir a montagem e o pino escolhido para o teste.</p>
-                        </div>
-
-                        <details class="exemplo_detalhes exemplo_detalhes_azul">
-                            <summary>Ver o que conferir<img src="IMG/Seta.png" alt=""></summary>
-                            <div class="exemplo_resposta">
-                                <p>Antes de mexer na montagem, desconecte o Arduino e qualquer outra fonte de alimentação.</p>
-                                <p>Confira se os jumpers estão firmes e se a ligação do sensor corresponde ao esquema do seu circuito. Depois, compare o pino da montagem com o escolhido para a leitura.</p>
-                            </div>
-                        </details>
-                        <p class="exemplo_nota">Demonstração visual, sem leituras de um Arduino conectado.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Opção 2: o mesmo exemplo apresentado em três etapas. -->
-        <section class="exemplo exemplo_etapas" id="exemplo-2">
-            <div class="exemplo_titulo">
-                <span>Opção 2 · Passo a passo</span>
-                <h2>Investigue uma etapa de cada vez.</h2>
-                <p>Do primeiro teste até a próxima verificação, acompanhe o raciocínio.</p>
+                 </div>
             </div>
 
-            <div class="exemplo_etapas_conteudo">
-                <div class="exemplo_etapas_topo">
-                    <div><img src="IMG/Fotoresistor.png" alt=""><h3>O sensor de luz está respondendo?</h3></div>
-                    <span class="exemplo_etiqueta">Exemplo ilustrativo</span>
-                </div>
-
-                <div class="exemplo_passos">
-                    <div class="exemplo_passo">
-                        <span class="exemplo_numero">01</span>
-                        <span class="exemplo_legenda">FAÇA O TESTE</span>
-                        <h3>Mude a luz.</h3>
-                        <p>Com o circuito preparado para o teste, cubra o sensor e depois ilumine novamente.</p>
-                        <div class="exemplo_passo_destaque">Uma ação simples para observar uma resposta.</div>
-                    </div>
-
-                    <div class="exemplo_passo">
-                        <span class="exemplo_numero">02</span>
-                        <span class="exemplo_legenda">OBSERVE A RESPOSTA</span>
-                        <h3>A leitura mudou?</h3>
-                        <p>Neste exemplo, a leitura permaneceu praticamente igual nas duas situações.</p>
-                        <div class="exemplo_passo_destaque">Resultado do exemplo: pouca variação.</div>
-                    </div>
-
-                    <div class="exemplo_passo exemplo_passo_azul">
-                        <span class="exemplo_numero">03</span>
-                        <span class="exemplo_legenda">CONTINUE A INVESTIGAÇÃO</span>
-                        <h3>Confira a montagem.</h3>
-                        <p>Desligue todas as fontes de alimentação antes de conferir as conexões e o pino usado pelo sensor.</p>
-                        <div class="exemplo_passo_destaque">Uma pista por vez, com orientação.</div>
-                    </div>
-                </div>
-
-                <p class="exemplo_nota">Esta sequência ilustra a proposta da Buard. Os resultados apresentados não vêm de um circuito conectado.</p>
-            </div>
-        </section>
-
-        <!-- Opção 3: partir de uma dúvida comum e abrir as orientações. -->
-        <section class="exemplo exemplo_duvida" id="exemplo-3">
-            <div class="exemplo_titulo">
-                <span>Opção 3 · Comece pela dúvida</span>
-                <h2>Seu circuito deu uma pista.</h2>
-                <p>Parta do que você percebeu para entender o que pode conferir.</p>
-            </div>
-
-            <div class="exemplo_duvida_conteudo">
-                <div class="exemplo_descricao">
-                    <span class="exemplo_etiqueta">Exemplo ilustrativo</span>
-                    <div class="exemplo_componente"><img src="IMG/Led.png" alt=""></div>
-                    <h3>“Meu LED não acende.”</h3>
-                    <p>Você montou o circuito, mas algo não saiu como esperado. Por onde começar?</p>
-                    <span class="exemplo_duvida_rodape">Vamos conferir uma possibilidade de cada vez.</span>
-                </div>
-
-                <div class="exemplo_perguntas">
-                    <span class="exemplo_legenda">CAMINHOS PARA INVESTIGAR</span>
-                    <h3>O que vale conferir?</h3>
-                    <p>Abra uma orientação para acompanhar este exemplo.</p>
-                    <div class="buard_container_erro">
-                        <img src="IMG/Info.png" alt="">
-                        <p>Antes de ajustar componentes ou fios, desconecte o Arduino e qualquer outra fonte de alimentação.</p>
-                    </div>
-
-                    <details class="exemplo_detalhes" open>
-                        <summary><span>01 · As conexões estão firmes?</span><img src="IMG/Seta.png" alt=""></summary>
-                        <div class="exemplo_resposta"><p>Compare a montagem com o esquema do seu projeto. Veja se os jumpers estão nas fileiras previstas da protoboard e se algum fio ficou solto.</p></div>
-                    </details>
-
-                    <details class="exemplo_detalhes">
-                        <summary><span>02 · A posição do LED está correta?</span><img src="IMG/Seta.png" alt=""></summary>
-                        <div class="exemplo_resposta"><p>Confira a indicação de anodo e catodo do componente e compare com o esquema. Verifique também o resistor previsto no projeto antes de religar.</p></div>
-                    </details>
-
-                    <details class="exemplo_detalhes">
-                        <summary><span>03 · O pino corresponde ao código?</span><img src="IMG/Seta.png" alt=""></summary>
-                        <div class="exemplo_resposta"><p>Compare o número do pino usado na montagem com o definido no seu programa. Essa conferência é feita por você; este exemplo não analisa o código do Arduino.</p></div>
-                    </details>
-
-                    <p class="exemplo_nota">Estas são possibilidades para investigar, sem um defeito confirmado.</p>
-                </div>
-            </div>
         </section>
     </main>
 
