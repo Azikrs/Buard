@@ -127,7 +127,7 @@
 }
 
 .hero {
-    background: linear-gradient(to top right, #0060b9, #008cff36), url(../IMG/FundoArduino.webp);
+    background: linear-gradient(to top right, #5fb1fd,  #0068c9c4), url(../IMG/FundoArduino.webp);
     height: 80vh;
     width: 80vw;
     margin: auto;
@@ -139,12 +139,11 @@
 }
 
 .hero_conteudo {
-    text-align: center;
+    text-align: left;
     width:40vw;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 6vh;
-    margin: auto;
     flex-direction: column;
     justify-content: center;
     padding-left: 5vw;
@@ -164,7 +163,6 @@
     font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 600;
     font-size: 1.2vw;
-    padding: 0 2rem;
     letter-spacing: 0px;
     word-spacing: 1px;
     line-height: 1;
@@ -272,7 +270,7 @@
 }
 
 .buard_titulo h2{
-    color: #0085ff;
+    color: #0062be;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 70px;
     line-height: 1;
